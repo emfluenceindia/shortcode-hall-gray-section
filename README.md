@@ -1,25 +1,19 @@
-This project was bootstrapped with [Create Guten Block](https://github.com/ahmadawais/create-guten-block).
+## 👉  `Purpose of this Block`
+- The purpose is to convert an existing classical shortcode into a Gutenberg Block.
 
-Below you will find some information on how to run scripts.
+## 👉  `Benefits of converting to a Block`
+- No need to worry about remembering `shortcode` tag
+- Just drop into the `editor` and start writing the content.
+- Content will automatically get wrapped by desired container(s) when saved and rendered.
+- Could be searched easily in `Inserter Dialog` by its Name or Keywords
+- All Gutenberg Blocks are plugins, hence they are immediately available for all themes.
 
->You can find the most recent version of this guide [here](https://github.com/ahmadawais/create-guten-block).
-
-## 👉  `npm start`
-- Use to compile and run the block in development mode.
-- Watches for any changes and reports back any errors in your code.
-
-## 👉  `npm run build`
-- Use to build production code for your block inside `dist` folder.
-- Runs once and reports back the gzip file sizes of the produced code.
-
-## 👉  `npm run eject`
-- Use to eject your plugin out of `create-guten-block`.
-- Provides all the configurations so you can customize the project as you want.
-- It's a one-way street, `eject` and you have to maintain everything yourself.
-- You don't normally have to `eject` a project because by ejecting you lose the connection with `create-guten-block` and from there onwards you have to update and maintain all the dependencies on your own.
+## 👉  `Screnshots`
+- Searching the block in Inserter Dialog: https://prnt.sc/mernj7
+- Block in placed in the `editor` and content is typed: https://prnt.sc/merpso
+- Rendered output of the Shortcode block: https://prnt.sc/merr08  
+(please ignore the background color for now. Gutenberg adds default classes. I am checking how I can get rid of it.)
+- Rendered source:  
+`<div class="wp-block-cgb-block-hall-gray-content gray-bg"><div class="constrain content"><p>The Block alternative for hall-gray-section is placed here. As can be seen we only need to write the content to go inside the wrapper.<br/><br/>We are able to create multiple paragraphs as well.</p></div></div></div>` 
 
 ---
-
-###### Feel free to tweet and say 👋 at me [@MrAhmadAwais](https://twitter.com/mrahmadawais/)
-
-[![npm](https://img.shields.io/npm/v/create-guten-block.svg?style=flat-square)](https://www.npmjs.com/package/create-guten-block) [![npm](https://img.shields.io/npm/dt/create-guten-block.svg?style=flat-square&label=downloads)](https://www.npmjs.com/package/create-guten-block)  [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/ahmadawais/create-guten-block) [![Tweet for help](https://img.shields.io/twitter/follow/mrahmadawais.svg?style=social&label=Tweet%20@MrAhmadAwais)](https://twitter.com/mrahmadawais/) [![GitHub stars](https://img.shields.io/github/stars/ahmadawais/create-guten-block.svg?style=social&label=Stars)](https://github.com/ahmadawais/create-guten-block/stargazers) [![GitHub followers](https://img.shields.io/github/followers/ahmadawais.svg?style=social&label=Follow)](https://github.com/ahmadawais?tab=followers)# shortcode-hall-gray-section
