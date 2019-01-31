@@ -8,7 +8,7 @@
 - Could be searched easily in `Inserter Dialog` by its Name or Keywords
 - All Gutenberg Blocks are plugins, hence they are immediately available for all themes.
 
-## 👉  `Screnshots`
+## 👉  `Screenshots`
 - Searching the block in Inserter Dialog: https://prnt.sc/mernj7
 - Block in placed in the `editor` and content is typed: https://prnt.sc/merpso
 - Rendered output of the Shortcode block: https://prnt.sc/merr08  
